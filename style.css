@@ -1,0 +1,140 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+/*Header section*/
+.Header {
+    background-color: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 80px;
+}
+.strip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.strip-left{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.strip-right{
+    display: flex;
+    gap: 16px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.headerbutton{
+    padding: 8px 24px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    padding-top: 80px;
+}
+.main-header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.main-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.mainimg{
+    width: 600px;
+    height: 300px;
+}
+/*Content 1*/
+.content1-header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.infoimg{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.text{
+    max-width: 150px;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content1-container{
+    display: flex;
+    gap: 52px;
+    padding-bottom: 100px;
+}
+
+/*Content 2*/
+.content2{
+    background-color: #E5E7EB;
+}
+p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ref{
+    position: relative;
+    left: 88%;
+}
+
+/*Content 3*/
+.content3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 50px 100px;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+.cardheader{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 28px;
+}
+.cardtext{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.cardbutton{
+    background-color: #3882F6;
+    padding: 0 28px;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 4px;
+}
+
+/*Footer*/
+.Footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
